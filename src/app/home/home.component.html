@@ -1,0 +1,10 @@
+<!--se encarga de darle un contenedor a la lista y realiza la consulta 
+    para mandar al compomente hijo a construirla mandando la varibale
+    a utilizar para el componente hijo                                  -->
+<div class="container">
+    <div class="row" >
+        <app-lista-personajes *ngFor="let Personaje of character.results; " [personajeslista]="Personaje"
+            class=" col-xs-12 col-sm-6 col-md-4" ></app-lista-personajes>
+    </div>
+    <br>
+</div>

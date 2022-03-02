@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rick-and-morty-3be58": {
+      "hosting": {
+        "rickandmory": [
+          "rick-and-morty-3be58"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rick-and-morty-3be58"
+  }
+}

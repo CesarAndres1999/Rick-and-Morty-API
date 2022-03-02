@@ -1,0 +1,15 @@
+<br>
+<!---se le mandan los datos del componente padre para que realice por medio de la directiva ngfor la construccion
+de la lista de los presonajes que toma de la api-->
+<div class="card" style="width: 18rem;">
+
+  <img class="card-img-top" [src]="personajeslista.image" alt="Card image cap">
+  <div class="card-body">
+<!-- se utiliza el routerLink para redireccionar al componenete de el personaje que escoja -->
+    <a [routerLink]="['/ind',personajeslista.id]">
+      <p class="card-text"> Nombre: {{personajeslista.name}}</p>
+    </a>
+<!-------------------------------------------------------------------------------------------->
+  </div>
+
+</div>
